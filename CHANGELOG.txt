@@ -1,0 +1,7 @@
+2017-07-07  Václav Zouzalík
+
+* The original template's files were taken from <https://www.ctan.org/pkg/europecv>.
+
+* README.md: Created readme with basic info about this template.
+
+* LICENSE.txt: Added file with the full text of the LPPL license.
