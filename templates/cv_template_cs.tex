@@ -1,0 +1,79 @@
+\documentclass[czech,helvetica,openbib]{europecv}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[a4paper,top=1.27cm,left=1cm,right=1cm,bottom=2cm]{geometry}
+\usepackage[czech]{babel}
+\usepackage{bibentry}
+\usepackage{url}
+
+\renewcommand{\ttdefault}{phv} % Uses Helvetica instead of fixed width font
+
+\ecvname{Příjmení, Jméno}
+\ecvfootername{Jméno Příjmení}
+\ecvaddress{Ulice, číslo domu, město, PSČ, stát}
+\ecvtelephone[(Pokud nepotřebujete, odstraňte)]{(Pokud nepotřebujete, odstraňte)}
+\ecvfax{(Pokud nepotřebujete, odstraňte)}
+\ecvemail{\url{email@address.cz} (Pokud nepotřebujete, odstraňte)}
+\ecvnationality{(Pokud nepotřebujete, odstraňte)}
+\ecvdateofbirth{(Pokud nepotřebujete, odstraňte)}
+\ecvgender{(Pokud nepotřebujete, odstraňte)}
+%\ecvpicture[width=2cm]{mypicture}
+\ecvfootnote{Více informací najdete na \url{http://europass.cedefop.eu.int}\\
+\textcopyright~European Communities, 2003.}
+
+\begin{document}
+\selectlanguage{czech}
+
+
+\begin{europecv}
+\ecvpersonalinfo[5pt]
+\ecvitem{\large\textbf{Místo, o~které se~ucházíte}}{\large\textbf{(Pokud nepotřebujete, odstraňte)}}
+
+\ecvsection{Pracovní zkušenosti}
+\ecvitem{Datumy}{Zadejte oddělené položky pro každou relevantní pozici, začněte od poslední. (Pokud nepotřebujete, odstraňte).}
+\ecvitem{Povolání nebo pozice}{\ldots}
+\ecvitem{Hlavní aktivity a zodpovědnosti}{\ldots}
+\ecvitem{Název a adresa zaměstnavatele}{\ldots}
+\ecvitem{Odvětví}{\ldots}
+
+\ecvsection{Vzdělání a certifikáty}
+
+\ecvitem{Datumy}{Zadejte oddělené položky pro každý relevantní kurz, které jste dokončili, začněte od posledního. (Pokud nepotřebujete, odstraňte).}
+\ecvitem{Název získaného vzdělání}{\ldots}
+\ecvitem{Hlavní předměty/Získané zkušenosti}{\ldots}
+\ecvitem{Název a typ organizace poskytující vzdělání}{\ldots}
+\ecvitem{Úroveň podle vnitrstátní nebo mezinárodní klasifikace}{\ldots}
+
+\ecvsection{Osobní dovednosti}
+
+\ecvmothertongue[5pt]{Mateřský jazyk}
+\ecvitem{\large Další jazyky}{}
+\ecvlanguageheader{(*)}
+\ecvlanguage{Jazyk}{}{}{}{}{}
+\ecvlanguage{Jazyk}{}{}{}{}{}
+\ecvlanguagefooter[10pt]{(*)}
+
+\ecvitem[10pt]{\large Sociální dovednosti}{Nahraďte tento text popisem těchto zkušeností a uveďte, kde jste je získali (pokud nepotřebujete, odstraňte).}
+\ecvitem[10pt]{\large Organizační dovednosti}{Nahraďte tento text popisem těchto zkušeností a uveďte, kde jste je získali (pokud nepotřebujete, odstraňte).}
+\ecvitem[10pt]{\large Technické dovednosti}{Nahraďte tento text popisem těchto zkušeností a uveďte, kde jste je získali (pokud nepotřebujete, odstraňte).}
+\ecvitem[10pt]{\large Počítačové dovednosti}{Nahraďte tento text popisem těchto zkušeností a uveďte, kde jste je získali (pokud nepotřebujete, odstraňte).}
+\ecvitem[10pt]{\large Umělecké dovednosti}{Nahraďte tento text popisem těchto zkušeností a uveďte, kde jste je získali (pokud nepotřebujete, odstraňte).}
+\ecvitem[10pt]{\large Ostatní dovednosti}{Nahraďte tento text popisem těchto zkušeností a uveďte, kde jste je získali (pokud nepotřebujete, odstraňte).}
+\ecvitem{\large Řidičský průkaz}{Uveďte, zda máte řidičský průkaz a pro jaké kategorie. (Pokud nepotřebujete, odstraňte).}
+
+\ecvsection{Ostatní informace}
+\ecvitem[10pt]{}{Uveďte jakékoli další informace, které mohou být relevantní, např. kontaktní osoby, reference, atd. (Pokud nepotřebujete, odstraňte).}
+\bibliographystyle{plain}
+\nobibliography{publications}
+\ecvitem{}{\textbf{Publikace}}
+\ecvitem{}{\bibentry{pub1}}
+\ecvitem[10pt]{}{\bibentry{pub2}}
+\ecvitem{}{\textbf{Osobní zájmy}}
+\ecvitem{}{\ldots}
+
+\ecvsection{Přílohy}
+\ecvitem{}{Uveďte seznam příloh k Vašemu CV}
+\end{europecv}
+
+
+\end{document} 

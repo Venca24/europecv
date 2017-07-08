@@ -5,3 +5,9 @@
 * README.md: Created readme with basic info about this template.
 
 * LICENSE.txt: Added file with the full text of the LPPL license.
+
+2017-07-08  Václav Zouzalík
+
+* cv_template_cs.tex: Added template in Czech language.
+
+* cv_template_cs.pdf: Added PDF generated from the Czech template.
